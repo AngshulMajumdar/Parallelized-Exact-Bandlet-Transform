@@ -1,0 +1,13 @@
+# Core (all scripts)
+numpy>=1.24
+matplotlib>=3.7
+
+# GPU/TPU notebooks and src/bandlet_benchmark.py
+torch>=2.0
+scikit-image>=0.21
+
+# Sparsity comparison (src/bandlet_benchmark.py --sparsity, scripts/make_result_figures.py)
+PyWavelets>=1.4
+
+# TPU notebook only (notebooks/bandlet_tpu.ipynb) -- not needed for anything else
+# torch_xla  (install per https://github.com/pytorch/xla, matched to your torch version)
